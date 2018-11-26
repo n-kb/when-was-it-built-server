@@ -100,7 +100,7 @@ wss.on('connection', (ws) => {
             rooms[roomName] = { players: [{name: message_json.username, ws: ws}]}
             ws.send(JSON.stringify({"roomName": roomName }))
         } else if (message_json.joinRoom) {
-            var roomName = message_json.joinRoom
+            var roomName = message_json.joinRoom.toLowerCase().trim()
             // Adds second player to the room
             rooms[roomName].players.push({name: message_json.username, ws: ws})
             // Init the rounds
