@@ -137,7 +137,12 @@ wss.on('connection', (ws) => {
                 rooms[roomName].rounds[message_json.round][message_json.username] = {answer: message_json.answer,
                                                                                      points: checked_answer.points}
                 rooms[roomName].rounds[message_json.round].correct_answer = checked_answer.correct_answer
-            }           
+            }       
+        }  else if (message_json.newGame) {
+            // empties the room but keeps the latest building as the first of the new room
+            //var lastRound = rooms[message_json.roomName].rounds[message_json.lastRound]
+            rooms[message_json.roomName].rounds = {}
+            //rooms[message_json.roomName].rounds["1"] = lastRound
         }
     });
 });
