@@ -58,14 +58,14 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 89,175,,China,Peking,1770-1799,1770,1799,29,Forbidden City,hall,
 90,176,,China,Peking,1400-1499,1400,1499,99,Forbidden City,,
 91,"177,178,179",,China,Peking,1400-1429,1400,1429,29,Forbidden City,gate,
-94,183,,China,Beijing,1400-1499; 1980-1989,1400,1499.0,,Great Wall of China,wall,
+94,183,,China,Beijing,1400-1499; 1980-1989,1400,1499,,Great Wall of China,wall,
 95,"184,185,186,187,188,190,191,192",,China,Peking,1400-1499,1400,1499,99,"Forbidden City (Peking, China)",imperial palaces,
 96,189,,China,Peking,1400-1499,1400,1499,99,"Forbidden Palace (Peking, China)",imperial palaces,
 101,"214,215,216,217",,China,Peking,1400-1499,1400,1499,99,T'ien T'an,temples,
 102,218,,China,Chengdu,1800-1899,1800,1899,99,Mt. Qing Cheng pavilion,pavilions,
 103,219,,China,T°ai-yèuan shih,1500-1599,1500,1599,99,Shuang-la Temple,temples; pagodas (buildings),
 105,223,,China,Xi'an,1384,1384,1384,0,bell tower (Zhong Lou),,
-106,224,,China,Sian,648-642,642.0,648.0,,Big Goose Pagoda (Dayan Ta),pagodas (buildings),
+106,224,,China,Sian,648-642,642,648,,Big Goose Pagoda (Dayan Ta),pagodas (buildings),
 111,"233,234,236,237,238,239,240",,China,Xi'an,742,742,742,0,Great Mosque (Qingzhen Dasi),,
 112,235,,China,Xia'n,742,742,742,0,Great Mosque (Qingzhen Dasi),mosques; courtyards; gates,
 113,241,,China,Xi'an,1368-1644,1368,1644,276,Xi'an pagoda,pagodas (buildings),
@@ -79,7 +79,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 124,255,,China,Hsin-tu hsien,1980-1989,1980,1989,9,Communist Party Headquarters,buildings,
 125,256,,China,Yanbian County,1970-1979,1970,1979,9,Sichuan private house,houses,
 126,"257,258,259,260,261,262,263,264,265,266",,China,Yanyuan County,1990-1999,1990,1999,9,Sichuan private house,houses; courtyards,
-127,267,,China,Yanyuan County,1990s,1990.0,1999.0,9.0,Sichuan private house,houses; shrines,
+127,267,,China,Yanyuan County,1990s,1990,1999,9,Sichuan private house,houses; shrines,
 130,270,,China,Turpan,1980-1989,1980,1989,9,Turpan private house and raisin shed,houses; sheds,
 131,271,,China,Urumchi,1980-1989,1980,1989,9,Islamic college,colleges,
 132,272,,China,,1970-1979,1970,1979,9,Lunan private houses,,
@@ -196,7 +196,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 372,"784,785","Eiffel, Gustave",France,Paris,1889,1889,1889,0,"Eiffel Tower (Paris, France)",monument,
 373,"786,788,789,791,793,794","Gehry, Frank O., 1929-",France,Marne-la-Vallee,1988-1992,1988,1992,4,"Euro Disneyland (Marne-la-Vallee, France)",amusement parks,
 374,787,"Stern, Robert M.",France,Marne-la-Vallee,1988-1992,1988,1992,4,Hotel Newport Bay Club,,
-375,790,"Grumbach, Antoine, 1942-",France,Marne-la-Vallee,1998-1992,1992.0,1998.0,,Hotel Sequoia Lodge,hotels (public accommodations),
+375,790,"Grumbach, Antoine, 1942-",France,Marne-la-Vallee,1998-1992,1992,1998,,Hotel Sequoia Lodge,hotels (public accommodations),
 376,792,"Disney Imagineers (Wimberly, Allison, Tong & Goo)",France,Marne-la-Vallee,1988-1992,1988,1992,4,Disneyland Hotel,hotels (public accommodations),
 377,795,"Stern, Robert M. ; and others",France,Marne-la-Vallee,1988-1992,1988,1992,4,"Main Street, U.S.A.",amusements parks,
 378,796,"Graves, Michael, 1934-",France,Marne-la-Vallee,1988-1992,1988,1992,4,Hotel New York,hotels (public accomodations),
@@ -327,14 +327,13 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 561,"1337,1338,1339,1341",,Germany,Trier,307-312,307,312,5,"Basilica of Constantine (Rome, Italy)",basilicas; palaces,
 562,1340,,Germany,Trier,300-329,300,329,29,"Basilica of Constantine (Rome, Italy)",palaces; basilicas; brickwork (masonry),
 563,1342,,Germany,Trier,270-299,270,299,29,Roman city gate,city gates,
-564,"1343,1344,1345,1346,1347,1349,4650",,Greece,Athens,499-400 BCE,-499.0,-400.0,,"Acropolis (Athens, Greece)",plans; acropolises; fortifications,
-565,"1348,1355,1356,1357,1358,1359,1360,1361,1362","Mnesicles, 5th cent. B.C.",Greece,Athens,499-400 BCE,-499.0,-400.0,,"Erechtheum (Athens, Greece)",temples; ruins,
-571,"1365,1366,4649",Iktinos & Kallikrates,Greece,Athens,447-432 BCE,-447.0,-432.0,,"Parthenon (Athens, Greece)",temples; columns; ruins,
-572,"1367,1369",Iktinos & Kallikrates,Greece,Athens,477-438 BCE,-477.0,-438.0,,Parthenon,temples; ruins,
-573,"1368,1370,1371,1372,1373,1374",Iktinos & Kallikrates,Greece,Athens,477-438 BCE,-477.0,-438.0,,"Parthenon (Athens, Greece)",temples; ruins,
+564,"1343,1344,1345,1346,1347,1349,4650",,Greece,Athens,499-400 BCE,-499,-400,,"Acropolis (Athens, Greece)",plans; acropolises; fortifications,
+565,"1348,1355,1356,1357,1358,1359,1360,1361,1362","Mnesicles, 5th cent. B.C.",Greece,Athens,499-400 BCE,-499,-400,,"Erechtheum (Athens, Greece)",temples; ruins,
+571,"1365,1366,4649",Iktinos & Kallikrates,Greece,Athens,447-432 BCE,-447,-432,,"Parthenon (Athens, Greece)",temples; columns; ruins,
+572,"1367,1369",Iktinos & Kallikrates,Greece,Athens,477-438 BCE,-477,-438,,Parthenon,temples; ruins,
+573,"1368,1370,1371,1372,1373,1374",Iktinos & Kallikrates,Greece,Athens,477-438 BCE,-477,-438,,"Parthenon (Athens, Greece)",temples; ruins,
 578,"1381,4633",,Greece,Athens,130,130,130,0,"Olympieion (Athens, Greece)",temples; columns (architectural elements),
 583,"1388,3123,3124,3125,3126,3127","Aga, Mehmet",Turkey,Istanbul,1603-1617,1603,1617,14,"Sultanahmet Camii (Istanbul, Turkey)",,
-584,1389,,Greece,Mycenae (Extinct city),1299-1200 BCE,-1299.0,-1200.0,,Lion Gate,arches; gates,
 588,1394,,Guatemala,Tikal,900,900,900,0,Tikal buildings,buildings,
 594,"1416,1417,1418,1419,1420","Pei, I. M., 1917-",China,Hong Kong,1982-1990,1982,1990,8,Bank of China,commercial buildings; office buildings,
 596,"1424,1425,1427,1428,1429,1430","Foster, Norman,  1935- [Sir]",China,Hong Kong,1979-1986,1979,1986,7,Hong Kong and Shanghai Bank,commercial buildings; office buildings,
@@ -365,7 +364,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 633,"1530,1531","Le Corbusier, 1887-1965",India,Chandigarh,1956,1956,1956,0,Secretariat,,
 634,"1532,1533,1534,1535,1536","Le Corbusier, 1887-1965",India,Chandigarh,1965,1965,1965,0,The Club House,,
 635,"1537,1538","Le Corbusier, 1887-1965",India,Chandigarh,1965,1965,1965,0,The Tower of Shadows,towers,
-646,"1576,1577,1578,1579,1580,1581",,Iran,Persepolis,518-460 BCE,-518.0,-460.0,,Persepolis royal complex,palaces; presence chambers; ruins,
+646,"1576,1577,1578,1579,1580,1581",,Iran,Persepolis,518-460 BCE,-518,-460,,Persepolis royal complex,palaces; presence chambers; ruins,
 648,"1601,1602","Pietro Belluschi, 1899-1994",Italy,Ancona,1976,1976,1976,0,Facolta di Ingegnerie,universities,
 650,"1604,1609","Tribolo, Niccolo,",Italy,Florence,1550,1550,1550,0,"Giardino di Boboli (Florence, Italy)",gardens,
 651,1605,Michelozzo,Italy,Florence,1444-1459,1444,1459,15,Palazzo Medici Riccardi,palazzi; palaces,
@@ -417,10 +416,9 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 725,"1721,1723",,Italy,Rome,350,350,350,0,Santa Costanza,churches; mausoleums,
 726,1722,,Italy,Rome,351,351,351,0,Santa Costanza,churches; mausoleums,
 728,"1725,1727,1728,1729,1730,1732,1733,1734,1735,1736,1737,1738,1739,1740,1741,1742","Della Porta, Giacomo; Maderno, Carlo",Italy,Rome,1606-1612,1606,1612,6,Basilica di San Pietro in Vaticano,churches;pictorial drawings; plans (drawings); basilicas,
-730,1731,"Della Porta, Giacomo; Maderno, Carlo",Italy,Rome,1606-1612 BCE,-1606.0,-1612.0,,Basilica di San Pietro in Vaticano,churches; basilicas; streets,
 732,"1745,1746,1747","Montuori, , Eugenio, 1907- ; and Calini; Castellazzi; Fadigati; Vitellozzi; Pintonello",Italy,Rome,1948-1950,1948,1950,2,Stazione Termini,stations,
 735,"1753,1754,1755","Bramante, Donato,",Italy,Rome,1499-1502,1499,1502,3,Tempietto of San Pietro,temples,
-736,"1756,1757",,Italy,Rome,200-170 BCE,-200.0,-170.0,,"Temple of Portunus (Rome, Italy)",temples; pseudoperipteral,
+736,"1756,1757",,Italy,Rome,200-170 BCE,-200,-170,,"Temple of Portunus (Rome, Italy)",temples; pseudoperipteral,
 739,1761,,Italy,Rome,113,113,113,0,"Trajan's Column (Rome, Italy)",columns (architectural elements); monuments,
 740,"1762,1763",,Italy,Rome,100-112,100,112,12,Trajan's Markets,marketplaces; markets (buildings),
 741,"1764,1765","Peruzzi, Baldassarre,",Italy,Rome,1508-1511,1508,1511,3,Villa della Farnesina,villas,
@@ -717,7 +715,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 1279,2849,,Russia,Uglich,1495,1495,1495,0,Chambers of Tsarevich Dmitrii,,
 1280,"2850,2851,2852,2853,2854,2855",,Russia,Uglich,1692,1692,1692,0,Church of Dmitrii on the Blood,churches,
 1281,2856,,Russia,Uglich,1681,1681,1681,0,Church of Saint John the Baptist,churches,
-1283,2858,,Russia,Velikii Ustiug,1600-1799.,1600,1799.0,199.0,Cathedral Square,,
+1283,2858,,Russia,Velikii Ustiug,1600-1799.,1600,1799,199,Cathedral Square,,
 1284,"2859,2860",,Russia,Velikii Ustiug,1670-1729,1670,1729,59,Church of Nikola Gostunskii,churches,
 1285,2861,,Russia,Velikii Ustiug,1700-1709,1700,1709,9,Church of Saint Dmitrii Solunskii,churches,
 1286,2862,,Russia,Velikii Ustiug,1739-1747,1739,1747,8,Church of Saint Sergius of Radonezh,churches,
@@ -768,7 +766,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 1379,3106,,Turkey,Istanbul,1748-1755,1748,1755,7,"Nuruosmaniye Camii (Istanbul, Turkey)",mosques,
 1380,3107,"Balyan, Nikogos",Turkey,Istanbul,1854,1854,1854,0,Ortakoy Camii,mosques; bridges (built works),
 1381,3108,,Turkey,Istanbul,1400-1499,1400,1499,99,Rumeli Hisar and Anadolu Hisar,fortresses; rivers,
-1384,"3111,3133",,Turkey,Istanbul,499-400 BCE,-499.0,-400.0,,Spiral Column,sculptures; columns (architectural elements); capitals,
+1384,"3111,3133",,Turkey,Istanbul,499-400 BCE,-499,-400,,Spiral Column,sculptures; columns (architectural elements); capitals,
 1390,3121,"Sinan,  Mimar,",Turkey,Istanbul,1550-1557,1550,1557,7,"Suleymaniye Camii (Istanbul, Turkey)",mosques,
 1394,3150,,Turkey,Kayseri,1100-1199,1100,1199,99,Cifte medresesi,portals; schools,
 1395,"3151,3152",,Turkey,Kayseri,1276,1276,1276,0,Doner kumbet,buildings,
@@ -1066,18 +1064,17 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 1850,"4605,4606,4607,4608,4609",,Morocco,Casablanca,1993,1993,1993,0,Masjid al-Hasan al-Thani,mosques,Moroccan-Andalusian
 1852,"4613,4614",,Morocco,Rabat,1600-1699,1600,1699,99,Moroccan palace,palaces; arches; doors,
 1853,"4615,4616",,Morocco,Rabat,1195,1195,1195,0,Tour Hassan minaret,mosques; minarets; mausoleums,
-1860,4626,,Greece,Delphi (extinct city),499-400 BCE,-499.0,-400.0,,Delphi stadium,stadiums,
-1861,4627,,Greece,Delphi (extinct city),599-500 BCE,-599.0,-500.0,,Delphi stadium,stadiums,
-1862,4628,,Greece,Delphi (extinct city),699-600 BCE,-699.0,-600.0,,Delphi gymnasium,gymnasiums,
-1863,4629,,Greece,Athens,342-346 BCE,-342.0,-346.0,,Theater of Dionysos,theaters; open-air theaters,
+1860,4626,,Greece,Delphi (extinct city),499-400 BCE,-499,-400,,Delphi stadium,stadiums,
+1861,4627,,Greece,Delphi (extinct city),599-500 BCE,-599,-500,,Delphi stadium,stadiums,
+1863,4629,,Greece,Athens,342-346 BCE,-342,-346,,Theater of Dionysos,theaters; open-air theaters,
 1865,"4631,4632",,Greece,Athens,100-199,100,199,99,Theater of Dionysos,theaters; open-air theaters; bemas,
-1866,"4635,4637,4638,4639",,Greece,Athens,499-400 BCE,-499.0,-400.0,,"Agora (Athens, Greece)",agoras; marketplaces; ruins,
-1867,4636,,Greece,Delphi (Extinct city),366-329 BCE,-366.0,-329.0,,Temple of Apollo (Delphi),temples; ruins,
-1869,"4647,4651",,Greece,Delphi (extinct city),366-329 BCE,-366.0,-329.0,,Temple of Apollo (Delphi),temples; ruins,
-1870,4652,,Greece,Delphi (extinct city),182-149 BCE,-182.0,-149.0,,Sanctuary of Apollo,sanctuaries,
-1871,"4653,4654",,Greece,Delphi (Extinct city),399-300 BCE,-399.0,-300.0,,Delphi theater,theaters; open-air theaters,
-1872,4655,,Greece,Delphi,399-300 BCE,-399.0,-300.0,,Delphi theater,theaters; open-air theaters,
-1873,4656,,Greece,Delphi (extinct city),399-300 BCE,-399.0,-300.0,,Delphi tadium,stadiums,
+1866,"4635,4637,4638,4639",,Greece,Athens,499-400 BCE,-499,-400,,"Agora (Athens, Greece)",agoras; marketplaces; ruins,
+1867,4636,,Greece,Delphi (Extinct city),366-329 BCE,-366,-329,,Temple of Apollo (Delphi),temples; ruins,
+1869,"4647,4651",,Greece,Delphi (extinct city),366-329 BCE,-366,-329,,Temple of Apollo (Delphi),temples; ruins,
+1870,4652,,Greece,Delphi (extinct city),182-149 BCE,-182,-149,,Sanctuary of Apollo,sanctuaries,
+1871,"4653,4654",,Greece,Delphi (Extinct city),399-300 BCE,-399,-300,,Delphi theater,theaters; open-air theaters,
+1872,4655,,Greece,Delphi,399-300 BCE,-399,-300,,Delphi theater,theaters; open-air theaters,
+1873,4656,,Greece,Delphi (extinct city),399-300 BCE,-399,-300,,Delphi tadium,stadiums,
 1875,"4661,4662",,Morocco,Meknes,1600-1699,1600,1699,99,Heri es-Souani (horse stables),stables,
 1876,4663,,Morocco,Meknes,1882,1882,1882,0,Dar Jamai Museum,museums; palaces,
 1877,4664,,Morocco,Meknes,1300-1399,1300,1399,99,Great Mosque minaret,mosques; minarets,
@@ -1085,7 +1082,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 1881,4669,,Morocco,Fes,1330-1369,1330,1369,39,Medersa Bou Inania,parochial schools,
 1883,4671,,Morocco,Marrakech,1570-1599,1570,1599,29,Palais el-Badi,ruins; palaces,
 1884,4672,,Morocco,Marrakech,1870-1899,1870,1899,29,Palais de la Bahia,courtyards; harems,
-1886,4674,,Greece,Delphi (Extinct city),366-329 BCE,-366.0,-329.0,,Temple of Apollo (Delphi (Extinct city)),temples,
+1886,4674,,Greece,Delphi (Extinct city),366-329 BCE,-366,-329,,Temple of Apollo (Delphi (Extinct city)),temples,
 1888,"4678,4679",,Morocco,Taroudant,1500-1599,1500,1599,99,Taroudant,ruins; ramparts; cities,
 1891,"4684,4685",,France,Parey le Monial,1100,1100,1100,0,Cluniac priory,priories,
 1892,4686,Norman Foster,France,Nimes,1995,1995,1995,0,Carre d'art/Musee d'art contemporain de Nimes,museum,
@@ -1210,7 +1207,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 2234,"5630,5648,5654",Richard Joseph Neutra,USA,Hollywood,1927,1927,1927,0,apartment block,apartment block; residence,
 2235,"5632,5634,5640,5646,5655,5664",Michael Graves,USA,Burbank,1992,1992,1992,0,office building,"Office building, Disney",
 2236,"5636,5643,5651,5657,5663",Julia Morgan,USA,Hollywood,1925-26,1925,1926,,"residence, recreational","residence, recreational",
-2237,"5645,5659",na,USA,Hollywood,1920s,1920.0,1929.0,9.0,gate,gate,
+2237,"5645,5659",na,USA,Hollywood,1920s,1920,1929,9,gate,gate,
 2253,5688,,South Africa,Cape Town,1666-1679,1666,1679,13,Castle of Good Hope,,
 2254,5690,I. Fomin,Russia,Moscow,1929-1934,1929,1934,5,Government Administrative Office,Govenment Administrative Office,
 2255,5691,V. Maiat,Russia,Moscow,1928,1928,1928,0,Commercial and Apartment Building,Commercial and Apartment Building,
@@ -1251,18 +1248,18 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 2290,5732,L. Poliakov,Russia,Moscow,1954,1954,1954,0,Exhibition,Exhibition,
 2291,5734,A. Pomerantsev,Russia,Moscow,1889-1893,1889,1893,4,Upper Trading Rows (GUM),commercial,
 2292,5735,A. Shchusev,Russia,Moscow,1928-1933,1928,1933,5,Government Administrative OfficeGovernment Government Govenment Administrative Office,Govenment Administrative Office,
-2296,"5740,5776",,Italy,Pompeii,60-50 BCE,-60.0,-50.0,,wall painting,Roman,
-2304,5749,,Italy,Pompeii,60-50 BCE,-60.0,-50.0,,wall painting in Roman villa,Roman,
+2296,"5740,5776",,Italy,Pompeii,60-50 BCE,-60,-50,,wall painting,Roman,
+2304,5749,,Italy,Pompeii,60-50 BCE,-60,-50,,wall painting in Roman villa,Roman,
 2325,5779,,South Africa,Stellenbosch,1840,1840,1840,0,1840 Building,,Cape Dutch architectural style
 2327,"5781,5782,5783,5784,5785,5786,5787,5788,5789,5790,5791,5792,5793,5794,5795,5796,5797,5798,5799,5800,5801,5802,5803,5804,5805,5806,5807,5808,5809,5810,5811,5812,5813,5814,5815,5816,5817,5818",Frank O. Gehry,USA,Seattle,1986-,1986,1986,0,museum of contemporary music,museum,
-2328,"5819,5839,5857,5863",Sultan Said Seyyid?,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty.",1830.0,1839.0,9.0,People's Palace,Palace,
-2334,"5833,5841",Sultan Said Seyyid?,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty.",1830.0,1839.0,9.0,Harbor and Sultan's cemetery,Palace and customs office,
+2328,"5819,5839,5857,5863",Sultan Said Seyyid?,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty.",1830,1839,9,People's Palace,Palace,
+2334,"5833,5841",Sultan Said Seyyid?,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty.",1830,1839,9,Harbor and Sultan's cemetery,Palace and customs office,
 2335,"5834,5868",John Sinclair,Tanzania,Zanzibar,1914-1922,1914,1922,8,Peace Memorial Museum,Museum,
-2340,5843,Sultan Said Seyyid?,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty.",1830.0,1839.0,9.0,People's Palace and Old Customs house,Palace and customs office,
+2340,5843,Sultan Said Seyyid?,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty.",1830,1839,9,People's Palace and Old Customs house,Palace and customs office,
 2342,5845,"Aji Singh, Eric dutton",Tanzania,Zanzibar,1948,1948,1948,0,Mental Hospital Superintendant's home,Single family dwelling,
-2346,5852,,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty.",1830.0,1839.0,9.0,House of Wonder and bandstand in Forodhani Park (aka Jamituri Gardens),Part of Palace complex,
+2346,5852,,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty.",1830,1839,9,House of Wonder and bandstand in Forodhani Park (aka Jamituri Gardens),Part of Palace complex,
 2352,5860,,Tanzania,Zanzibar,1887-,1887,1887,0,Old Khoja Dispensary,Hospital,
-2353,"5862,5869",Sultan Said Seyyid?,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty. After building the palace complex he moved his capital from Oman to Zanzibar (1840). Complex included palace itself (Beit al-Sahel), harem building (Beit al-Hukm) and ""The House of Wonder"" (Beit al-Ajaib). These were connected by wikios (covered upper story walkways). The central building (the harem) and much of the ornate wooden portion of the Palace itself were destroyed when the English bombarded the complex in 1896. In the same bombardment the clocktower that stood before the House of Wonder was ruined. In rebuilding the House of Wonder, builders incorporated the clock tower into the main building, as it is seen in these photo. This structure was apparently considered quite an architectural marvel in its time; the exterior support columns are metal. (cf. pp 52-63 in Sheriff's ""Historical Zanzibar,"" and p 68 in Colonial Offices's ""Introducing East Africa."")",1830.0,1839.0,9.0,Zanzibar skyline and palace,Palace complex situated in cityscape showing other old buildings and a sea front park (Forodhani aka Jamituri Gardens.),
+2353,"5862,5869",Sultan Said Seyyid?,Tanzania,"Zanzibar, Stone Town","Palace complex was built in the 1830s by Sultan Said Seyyid (1791-18-56), founder of Busaidi dynasty. After building the palace complex he moved his capital from Oman to Zanzibar (1840). Complex included palace itself (Beit al-Sahel), harem building (Beit al-Hukm) and ""The House of Wonder"" (Beit al-Ajaib). These were connected by wikios (covered upper story walkways). The central building (the harem) and much of the ornate wooden portion of the Palace itself were destroyed when the English bombarded the complex in 1896. In the same bombardment the clocktower that stood before the House of Wonder was ruined. In rebuilding the House of Wonder, builders incorporated the clock tower into the main building, as it is seen in these photo. This structure was apparently considered quite an architectural marvel in its time; the exterior support columns are metal. (cf. pp 52-63 in Sheriff's ""Historical Zanzibar,"" and p 68 in Colonial Offices's ""Introducing East Africa."")",1830,1839,9,Zanzibar skyline and palace,Palace complex situated in cityscape showing other old buildings and a sea front park (Forodhani aka Jamituri Gardens.),
 2354,5864,,Tanzania,Kizimkazi,1107,1107,1107,0,Kizimkazi Mosque,Mosque,
 2374,5915,,Germany,Berlin,1380,1380,1380,0,church,,
 2376,5917,Georg Christian Unger,Germany,Berlin,1775-1780,1775,1780,5,Koenigliche Bibliothek,,
@@ -1341,8 +1338,8 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 2653,6416,Phra Sarotratananimmarn,Thailand,Bangkok,1941,1941,1941,0,Fine Arts Building,,Proto-Modern
 2676,"6447,6450,6454,6456,6460",,Nigeria,Lagos,1957,1957,1957,0,Museum,Museum,
 2679,"6453,6484",,Nigeria,Afikpo,1959,1959,1959,0,Afikpo District Council Hall,,
-2737,"6563,6568,6573,6583,6584,6585,6590,6591,6595,6598,6601,6608,6609,6610,6614,6623,6624,6632,6633,6634",,Niger Republic,Niamey,early 70s,1970.0,1975.0,5.0,University of Niamey,University,
-2759,6619,,Niger Republic,Niamey,early 70s,1970.0,1975.0,5.0,Niger river and Kennedy bridge,Bridge,
+2737,"6563,6568,6573,6583,6584,6585,6590,6591,6595,6598,6601,6608,6609,6610,6614,6623,6624,6632,6633,6634",,Niger Republic,Niamey,early 70s,1970,1975,5,University of Niamey,University,
+2759,6619,,Niger Republic,Niamey,early 70s,1970,1975,5,Niger river and Kennedy bridge,Bridge,
 2763,"6636,6638,6640,6642,6644,6646,6651",Otto Wagner,Austria,Vienna,1894-1898,1894,1898,4,Stadtbahn Court Pavillion,,
 2764,"6643,6645,6649,6650,6652,6654,6656,6658,6660",Otto Wagner,Austria,Vienna,1893-1894,1893,1894,1,Anker Haus,,
 2765,"6647,6671,6753,6760,6762","Ohmann, Hackhofer",Austria,Vienna,1903-1907,1903,1907,4,River Wien Buildings,,
@@ -1387,14 +1384,14 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 2890,6953,,Republic of Georgia,Tbilisi,1923-1929,1923,1929,6,Janashia Museum of Georgia,Museum,
 2891,6954,,Republic of Georgia,Tbilisi,1953,1953,1953,0,Government House,,
 2892,6955,"Peter Stern, German",Republic of Georgia,Tbilisi,1880,1880,1880,0,Tbilisi City Hall,,
-2894,6957,"Leopold Bielfeld, German (?)",Republic of Georgia,Tbilisi,1904-1910 (?),1904,1910.0,6.0,Kashveti Church of St. George,Church,
+2894,6957,"Leopold Bielfeld, German (?)",Republic of Georgia,Tbilisi,1904-1910 (?),1904,1910,6,Kashveti Church of St. George,Church,
 2898,6964,,Republic of Georgia,Gori,1957,1957,1957,0,Stalin Museum,Museum,
 2910,6982,Walter Gropius and Pietro Belluschi,USA,New York City,1958-63,1958,1963,,"office building, corporate tower, tall office building",office building; corporate tower; tall office building,modern
 2911,"6983,6986,6988,6989,6990,6991,6992,6993,6994",Walter Gropius and Pietro Belluschi,USA,New York City,1958-63,1958,1963,,office building; corporate tower,office building; corporate tower,modern
 2912,6984,Walter Gropius and Pietro Belluschi,USA,New York City,1958-63,1958,1963,,office building,office buildings; heliport,modern
 2914,6987,Walter Gropius and Pietro Belluschi,USA,New York City,1958-63,1958,1963,,office building; corporate tower; tall office building,office building; corporate tower,modern
 2935,7030,,Libya,Tripoli,1737,1737,1737,0,Administrative building,Consulate/Embassy,North African
-2954,7051,,Libya,Tripoli,1920s-30s,1920.0,1939.0,19.0,Tripoli,North African,Italian Colonial
+2954,7051,,Libya,Tripoli,1920s-30s,1920,1939,19,Tripoli,North African,Italian Colonial
 2956,"7064,7087,7088,7091,7092,7094,7096,7098,7099,7103,7104,7108,7110,7111,7112,7118,7125",Charles Moore,USA,Santa Cruz,1972-1974,1972,1974,2,Kresge College,college campus,
 2957,"7089,7095,7097",Richard Meier,USA,Los Angeles,1985-1997,1985,1997,12,Getty Museum,,
 2958,"7090,7107,7117,8028,8034,8056",Jean Nouvel,France,Paris,1987,1987,1987,0,Institut du Monde Arab,,
@@ -1442,7 +1439,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 3019,7304,Julia Morgan,USA,San Simeon,1912-1942,1912,1942,30,Hearst Castle,,
 3020,"7305,7306,7307,7308,7309,7310,7311,7312,7313,7314,7315,7316,7317,7318,7319,7320,7321,7322,7323,7324,7325,7326",Julia Morgan,USA,San Simeon,1919-1942,1919,1942,23,Hearst Castle,,
 3022,"7328,7329,7330,7331,7332,7333,7334,7335,7336,9509",Le Corbusier,France,Poissy,1929,1929,1929,0,Villa Savoye,,"modern, International style"
-3043,7375,,Turkey,,550-300 BCE,-550.0,-300.0,,Lycian rock tomb,tomb,Lycian
+3043,7375,,Turkey,,550-300 BCE,-550,-300,,Lycian rock tomb,tomb,Lycian
 3045,"7377,7385","McKim, Mead and White",USA,New York City,1891,1891,1891,0,Century Association,office building,
 3046,"7378,7384,7836","McKim, Mead and White",USA,Boston,1898,1898,1898,0,Boston Public Library,library,
 3048,"7380,7386",William Van Alen,USA,New York City,1928-1930,1928,1930,2,Chrysler Building,"office building, skyscraper",Art Deco
@@ -1588,7 +1585,6 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 3429,9456,"Unterberger, Christopher",Italy,Rome,1791,1791,1791,0,Fontana dei Cavalli Marini,fountains,
 3430,9457,"Asprucci, Mario",Italy,Rome,1789,1789,1789,0,Tempietto di Diana,"temples, peripteral",
 3439,"9474,9476","Della Porta, Giacomo; Maderno, Carlo",Italy,Rome (Vatican City),1606-1612,1606,1612,6,Basilica de San Pietro in Vaticano,churches; basilicas,
-3447,"9503,9504,9505",,France,,3500-1800 BCE,-3500.0,-1800.0,,megaliths,prehistoric,
 3448,"9506,9507",,France,Paris,1163-1250,1163,1250,87,cathedral,church,
 3450,9511,,Turkey,Istanbul,532-537,532,537,5,church,church,
 3487,9620,Jules Astruc,France,Paris,1892-1902,1892,1902,10,Notre Dame du Travail,church,
@@ -1629,7 +1625,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 3551,9832,Karl Friedrich Schinkel,Germany,,1823-1830,1823,1830,7,Altesmuseum (Old Museum),museum,Neoclassical
 3552,"9836,9845",,Germany,Tiergarten,1945,1945,1945,0,Soviet War Memorial,memorial,
 3553,9843,Carl G. Langhans,Germany,Berlin,1788-1791,1788,1791,3,Brandenburg Gate,monument,
-3562,"9874,9875,9876,9877","Alberti, Leon Battista",Italy,Rimini,c. 13th century for church; facade 1440s,1200.0,1440.0,240.0,Church of San Francesco,"churches, religious structures",Italian Renaissance
+3562,"9874,9875,9876,9877","Alberti, Leon Battista",Italy,Rimini,c. 13th century for church; facade 1440s,1200,1440,240,Church of San Francesco,"churches, religious structures",Italian Renaissance
 3567,"9884,9885","Palladio, Andrea",Italy,Vicenza,1571,1571,1571,0,Loggia del Capitaniato,municiple buildings,
 3581,9919,"Dániel Novák, Adam Clark",Hungary,Budapest,1837,1837,1837,0,Castle Hill Tunnel,tunnel entrance,
 3582,"9920,9921,9922,9923","József Hild, Miklós Ybl, Jozsef Krauser",Hungary,Budapest,1848-1905,1848,1905,57,Saint Stephen's Basilica,"basilica, church",Neo-Renaissance
@@ -1682,7 +1678,7 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 3679,10273,Whitehouse and Price,USA,Seattle,1950,1950,1950,0,Art Building,educational,Collegiate Gothic
 3684,"10531,10535,10766,10768,10770",Flemish Jesuit Fray Juan Bautista Egidiano,Peru,Cuzco,1651-1668,1651,1668,17,La Compania,Church,"Baroque, Spanish Colonial"
 3686,"10538,10772,10773",,Peru,Cuzco,1664,1664,1664,0,La Catedreal,Cathedral,Spanish Colonial
-3691,"10557,10792,10794,10795",,Argentina,Buenos Aires,1730s,1730.0,1739.0,9.0,The Church of San Pedro Telmo (Our Lady Belen),Church,
+3691,"10557,10792,10794,10795",,Argentina,Buenos Aires,1730s,1730,1739,9,The Church of San Pedro Telmo (Our Lady Belen),Church,
 3693,10593,,Peru,Machu Picchu,1438-71,1438,1471,,Machu Picchu (Temple of Three Windows),"Temple,Ruins",
 3694,10595,,Peru,Machu Picchu,1438-71,1438,1471,,Machu Picchu (Site with Mummies),Ruins,
 3695,"10596,10597,10600,10830,10834,10835,10837",,Peru,Machu Picchu,1438-71,1438,1471,,Machu Picchu,Ruins,
@@ -1724,24 +1720,24 @@ id,photos,architect,country,city,date_of_construction,date_start,date_end,checkY
 3812,"11280,11281,11282,11283,11284,11285,11286,11287,11288,11289,11290,11291,11292,11293",Frank Lloyd Wright,USA,Ohiopyle (Bear Run),1934,1934,1934,0,Fallingwater,"Private residence, House",Expressionist Modern
 3822,"11779,11781,11783,11785,11787,11788,11789,11791,11793","Saunders, Charles",USA,Seattle,1895,1895,1895,0,Denny Hall,Educational; University building,French Renaissance
 3823,"11780,11782,11784,11786,11790,11792,11794",,USA,Seattle,1895,1895,1895,0,Theodor Jacobsen Observatory,Educational; University building; Observatory; Public Outreach,
-3826,11797,,Turkey,Gullubahce-Turunclar; Just north of Miletus in the Aegean Region,332-330,330.0,332.0,,Hellenistic Theatre,Public theatre; Stage; Entertainment,Greek; Hellenistic; Roman
+3826,11797,,Turkey,Gullubahce-Turunclar; Just north of Miletus in the Aegean Region,332-330,330,332,,Hellenistic Theatre,Public theatre; Stage; Entertainment,Greek; Hellenistic; Roman
 3827,"11798,11819,11865,11867,11868,11869,11870",,Syria,Qual'at Siman,459-560,459,560,101,St. Simeon Church,Church; Christian; Religious; Basilica,Pilgramage; Early Christian
-3829,"11800,11814",Xerxes I,Iran,Persepolis,518-460 BCE,-518.0,-460.0,,Gateway of All Nations; Gate of All Nations,Entryway; Palace complex; Admisitrative,Achaemenid
-3830,"11801,11802,11804,11805,11810,11811,11816",Darius I,Iran,Persepolis,518-460 BCE,-518.0,-460.0,,Adapana of Darius I,Administrative; Palace complex,Achaemenid
-3831,"11803,11813",Xerxes I and Artaxerxes I,Iran,Persepolis,518-460 BCE,-518.0,-460.0,,Hall of 100 Columns,Administrative; Palace complex,Achaemenid
-3833,11808,Darius I,Iran,Near Jeyhounabad,521- 518 BCE,-521.0,-518.0,,Bisotan Inscription,Relief carving,Achaemenid
-3834,11809,Darius I,Iran,Near Jeyhounabad,521- 518 BCE,-521.0,-518.0,,Bisotan Inscrption,Relief carving,Achaemenid
-3835,11812,Xerxes I,Iran,Persepolis,518-460 BCE,-518.0,-460.0,,Gate of All Nations,Entryway; Palace complex; Admisitrative,Achaemenid
-3836,11815,,Iran,Persepolis,518-460 BCE,-518.0,-460.0,,Tripylon Hall,Palace complex; Admisitrative,Achaemenid
+3829,"11800,11814",Xerxes I,Iran,Persepolis,518-460 BCE,-518,-460,,Gateway of All Nations; Gate of All Nations,Entryway; Palace complex; Admisitrative,Achaemenid
+3830,"11801,11802,11804,11805,11810,11811,11816",Darius I,Iran,Persepolis,518-460 BCE,-518,-460,,Adapana of Darius I,Administrative; Palace complex,Achaemenid
+3831,"11803,11813",Xerxes I and Artaxerxes I,Iran,Persepolis,518-460 BCE,-518,-460,,Hall of 100 Columns,Administrative; Palace complex,Achaemenid
+3833,11808,Darius I,Iran,Near Jeyhounabad,521- 518 BCE,-521,-518,,Bisotan Inscription,Relief carving,Achaemenid
+3834,11809,Darius I,Iran,Near Jeyhounabad,521- 518 BCE,-521,-518,,Bisotan Inscrption,Relief carving,Achaemenid
+3835,11812,Xerxes I,Iran,Persepolis,518-460 BCE,-518,-460,,Gate of All Nations,Entryway; Palace complex; Admisitrative,Achaemenid
+3836,11815,,Iran,Persepolis,518-460 BCE,-518,-460,,Tripylon Hall,Palace complex; Admisitrative,Achaemenid
 3840,"11824,11862",Ghias-ud-Din Tughlaq,Pakistan,Multan,1320-1324,1320,1324,4,Mausoleum of Shah Rukn-i-Alam,Funerary monument,Tughluqid
 3841,"11825,11826,11827,11828,11831,11832",Jehangir,Pakistan,Lahore,1624-1632,1624,1632,8,Lahore Fort,Fortification,Mughal
 3842,11829,Jehangir,Pakistan,Lahore,1624-1632,1624,1632,8,Wazir Khan Mosque,Fortification,Mughal
 3843,11830,Jehangir,Pakistan,Lahore,1612,1612,1612,0,Lahore Fort,Fortification; Residental,Mughal
 3844,11833,Aurangzib,Pakistan,Lahore,1674,1674,1674,0,Lahore Fort,Fortification,Mughal
-3845,11834,Iktinos and Kallikrates,Greece,Athens,477-438 BCE,-477.0,-438.0,,Parthenon and Propylaia,Religious Temple; Entryway,Classical Greek
-3846,11835,,Greece,Delphi,366-329 BCE,-366.0,-329.0,,Temple of Apollo,Religious temple,Classical Greek
+3845,11834,Iktinos and Kallikrates,Greece,Athens,477-438 BCE,-477,-438,,Parthenon and Propylaia,Religious Temple; Entryway,Classical Greek
+3846,11835,,Greece,Delphi,366-329 BCE,-366,-329,,Temple of Apollo,Religious temple,Classical Greek
 3848,11837,Shah Husayn I,Iran,Ishafan,1706-1714,1706,1714,8,Madar-e Shah Madrasa; College of the Mother of the Shah,Religious; College,Safavid
-3850,11839,Begun by Darius I,Iran,Persepolis,518-460 BCE,-518.0,-460.0,,Citadel of Persepolis,Administrative; Residental palace complex,Achaemenid
+3850,11839,Begun by Darius I,Iran,Persepolis,518-460 BCE,-518,-460,,Citadel of Persepolis,Administrative; Residental palace complex,Achaemenid
 3851,"11840,11842,11843,11845",Shah Husayn I,Iran,Isfahan,1706-1714,1706,1714,8,Madar-e Shah Madrasa; College of the Mother of the Shah,Religious; College,Safavid
 3852,"11841,11873,11874,11875,11876",Built by Abu'l Qasim under the patronage of Shah Abbas I,Iran,Isfahan,1611-1638,1611,1638,27,Masjid-i-Shah,Mosque; Religious,Safavid
 3854,"11846,11893",Shah Abbas II,Iran,Isfahan,1650,1650,1650,0,Khwaju Bridge,Bridge,Safavid
